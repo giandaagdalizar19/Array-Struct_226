@@ -24,5 +24,10 @@ int main () {
     cout << "Umur : " ;
     cin >> mhs.umur;
     cout << endl;
-
+    // Menampilkan data
+    cout << "Menampilkan Data" << endl;
+    cout << "Nama : " << mhs.nama << endl;
+    cout << "desa : " << mhs.alamat.desa << endl;
+    cout << "kota : " << mhs.alamat.kota << endl;
+    cout << "Umur : " << mhs.umur << endl;
 }
